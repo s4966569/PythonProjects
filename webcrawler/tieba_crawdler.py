@@ -28,9 +28,20 @@ if response.getcode() == 200:
         d_name = p.find("div", class_="d_author").find("ul", class_="p_author").find("li", class_="d_name")
         user_name = d_name.get_text()
 
-        p_content = p.find("div", class_="d_post_content_main").find("div", class_="p_content")
+        d_post_content_main = p.find("div", class_="d_post_content_main")
+        p_content = d_post_content_main .find("div", class_="p_content")
         post_content = p_content.find("cc").find("div", class_=re.compile(r"post_content"))
         content = post_content.get_text().strip()
 
-        print(user_name + "-----" + content)
+        post__tail_wrap = d_post_content_main.find("div", re.compile("core_reply")).\
+            find("div", re.compile("core_reply_tail")).find("div", class_=re.compile("post-tail-wrap"))
+        tail_infos = post__tail_wrap.findAll("span", class_="tail-info")
+        item0 = tail_infos[0]
+        if len(item0.findChildren()) > 0:
+            tail_infos.remove(item0)
+        floor = tail_infos[0].get_text()
+        time = tail_infos[1].get_text()
+
+        print(user_name + "(" + floor + "," + time + ")")
+        print("----" + content)
 
