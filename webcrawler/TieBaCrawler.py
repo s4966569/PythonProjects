@@ -92,6 +92,6 @@ def fetch_post_data(url: str, from_page=1, count=0):
 print("百度贴吧单个帖子内容抓取：\n")
 # str_url = "https://tieba.baidu.com/p/5295618892?pn=1"
 str_url = "https://tieba.baidu.com/p/5300781385"
-fetch_post_data(str_url)
+fetch_post_data(str_url, count=10)
 
 
