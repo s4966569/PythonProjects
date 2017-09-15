@@ -4,6 +4,7 @@ import re
 
 from PostInfo import PostInfo
 from ReplyItem import ReplyItem
+from MYSQLHelper import MYSQLHelper
 
 html_parser = 'lxml'
 
@@ -65,13 +66,13 @@ def fetch_single_page_data(url):
             floor = tail_infos[0].get_text()
             time = tail_infos[1].get_text()
 
-            if pattern.search(content):
-                reply = ReplyItem()
-                reply.author = user_name
-                reply.reply = content.strip()
-                reply.floor = floor
-                reply.time = time
-                replies.append(reply)
+            # if pattern.search(content):
+            reply = ReplyItem()
+            reply.author = user_name
+            reply.reply = content.strip()
+            reply.floor = floor
+            reply.time = time
+            replies.append(reply)
 
             # print(user_name + "(" + floor + "," + time + ")")
 
@@ -109,9 +110,13 @@ def fetch_post_data(url: str, from_page=1, count=0):
 
 
 print("百度贴吧单个帖子内容抓取：\n")
-str_url = "https://tieba.baidu.com/p/5300781385"
-data = fetch_post_data(str_url, count=2)
-data.reverse()
-print("\n---藏剑---")
+str_url = "https://tieba.baidu.com/p/5318604959"
+data = fetch_post_data(str_url,from_page=15,count=20)
+# data.reverse()
+
+db_helper = MYSQLHelper()
+db_helper.insert_replies(data)
+db_helper.closedb()
+
+# print(data[653])
 print("========共" + str(len(data)) + "条数据========")
-print(data)
