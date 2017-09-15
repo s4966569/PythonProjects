@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25fe184-699e-4eca-89a5-39ccc215fdad" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MYSQLHelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/Web2pyDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mysqldemo1/SQLQlchemyDemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mysqldemo1/mysqltest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../mysqldemo1/pet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/TieBaCrawler.iml" afterPath="$PROJECT_DIR$/.idea/TieBaCrawler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReplyItem.py" afterPath="$PROJECT_DIR$/ReplyItem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TieBaCrawler.py" afterPath="$PROJECT_DIR$/TieBaCrawler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mysqldemo1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mysqldemo1/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,8 +25,8 @@
       <file leaf-file-name="TieBaCrawler.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/TieBaCrawler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="102" column="32" lean-forward="true" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
+            <state relative-caret-position="1745">
+              <caret line="101" column="49" lean-forward="true" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -68,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MYSQLHelper.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MYSQLHelper.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/MYSQLHelper.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="40" />
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
                 <marker date="1505470078512" expanded="true" signature="297:309" ph="insert into reply... " />
@@ -95,11 +81,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testdb.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testdb.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testdb.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+            <state relative-caret-position="180">
+              <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
               <folding>
                 <marker date="1505469807257" expanded="true" signature="255:323" ph="INSERT INTO tbl_test... " />
                 <marker date="1505469807257" expanded="true" signature="336:364" ph="select messa... tbl_test" />
@@ -504,22 +490,6 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/.PyCharmCE2017.2/system/python_stubs/1596184545/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/PostInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReplyItem.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/testvar.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
@@ -528,27 +498,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MYSQLHelper.py">
+    <entry file="file://$PROJECT_DIR$/testdb.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="38" lean-forward="false" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        <state relative-caret-position="180">
+          <caret line="10" column="39" lean-forward="true" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
           <folding>
-            <element signature="e#0#22#0" expanded="true" />
-            <marker date="1505470078512" expanded="true" signature="297:309" ph="insert into reply... " />
-            <marker date="1505470078512" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-            <marker date="1505470078512" expanded="true" signature="652:701" ph="select autho... " />
-            <marker date="1505470078512" expanded="true" signature="743:798" ph="select autho... " />
-            <marker date="1505470078512" expanded="true" signature="743:799" ph="select autho... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TieBaCrawler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="102" column="32" lean-forward="true" selection-start-line="102" selection-start-column="32" selection-end-line="102" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#21#0" expanded="true" />
+            <marker date="1505469807257" expanded="true" signature="255:323" ph="INSERT INTO tbl_test... " />
+            <marker date="1505469807257" expanded="true" signature="336:364" ph="select messa... tbl_test" />
           </folding>
         </state>
       </provider>
@@ -561,13 +517,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/testdb.py">
+    <entry file="file://$PROJECT_DIR$/ReplyItem.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="68" lean-forward="false" selection-start-line="11" selection-start-column="68" selection-end-line="11" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PostInfo.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="36" />
+          <caret line="4" column="25" lean-forward="true" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TieBaCrawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1745">
+          <caret line="101" column="49" lean-forward="true" selection-start-line="101" selection-start-column="49" selection-end-line="101" selection-end-column="49" />
           <folding>
-            <marker date="1505469807257" expanded="true" signature="255:323" ph="INSERT INTO tbl_test... " />
-            <marker date="1505469807257" expanded="true" signature="336:364" ph="select messa... tbl_test" />
+            <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MYSQLHelper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1505470078512" expanded="true" signature="297:309" ph="insert into reply... " />
+            <marker date="1505470078512" expanded="true" signature="297:372" ph="insert into tiebareply... " />
+            <marker date="1505470078512" expanded="true" signature="652:701" ph="select autho... " />
+            <marker date="1505470078512" expanded="true" signature="743:798" ph="select autho... " />
+            <marker date="1505470078512" expanded="true" signature="743:799" ph="select autho... " />
           </folding>
         </state>
       </provider>

@@ -2,21 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7c28ff6c-1ebc-4322-b0b2-1eaa9e975031" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TieBaCrawler/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../TieBaCrawler/MYSQLHelper.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/Web2pyDemo.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../Web2pyDemo/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SQLQlchemyDemo.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mysqltest.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TieBaCrawler/.idea/TieBaCrawler.iml" afterPath="$PROJECT_DIR$/../TieBaCrawler/.idea/TieBaCrawler.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TieBaCrawler/.idea/misc.xml" afterPath="$PROJECT_DIR$/../TieBaCrawler/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TieBaCrawler/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../TieBaCrawler/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TieBaCrawler/ReplyItem.py" afterPath="$PROJECT_DIR$/../TieBaCrawler/ReplyItem.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../TieBaCrawler/TieBaCrawler.py" afterPath="$PROJECT_DIR$/../TieBaCrawler/TieBaCrawler.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
