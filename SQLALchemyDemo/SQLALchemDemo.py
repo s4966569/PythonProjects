@@ -27,10 +27,17 @@ pets = []
 for x in range(10):
     pets.append(p1)
 
-session.add_all(p1)
-session.bulk_save_objects(pets)
+# add a list (add_all只能add一个，不清楚为啥)
+# session.add_all(p1)
+# session.bulk_save_objects(pets)
 
+#删除一个对象
+# p = session.query(Pet).filter_by(name='Claws').one()
+# session.delete(p)
+# 两种不同的filter形式，需要注意写法
+p = session.query(Pet).filter(Pet.name == 'Buffy').first()
 session.commit()
+print(p)
 
 
 session.close()

@@ -1,5 +1,5 @@
 import mysql.connector
-from ReplyItem import ReplyItem
+from ReplyInfo import ReplyInfo
 
 
 class MYSQLHelper:
@@ -27,7 +27,7 @@ class MYSQLHelper:
         self.cursor.execute(queryAll)
         result = []
         for (author, reply, floor, time) in self.cursor:
-            item = ReplyItem()
+            item = ReplyInfo()
             item.author = author
             item.reply = reply
             item.floor = floor
