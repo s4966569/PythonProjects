@@ -1,14 +1,8 @@
-from MYSQLHelper import MYSQLHelper
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
 from Pet import Pet
-from ReplyInfo import ReplyItem
+from ReplyInfo import ReplyInfo
 
-# dbhelper = MYSQLHelper()
-# data = dbhelper.query_replies()
-# print(data)
-# print("========共" + str(len(data)) + "条数据========")
-# dbhelper.closedb()
 connect_str = "mysql+mysqlconnector://root:s4200220@127.0.0.1/test?charset=utf8mb4"
 engine = create_engine(connect_str,echo=True)
 connection = engine.connect()
@@ -17,7 +11,7 @@ Session = sessionmaker(bind=engine)
 session = Session()
 
 
-# result = session.query(ReplyItem).all()
+# result = session.query(ReplyInfo).all()
 # for row in result:
 #     print(row)
 

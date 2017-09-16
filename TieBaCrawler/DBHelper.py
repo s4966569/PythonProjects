@@ -1,5 +1,5 @@
 import mysql.connector
-from ReplyInfo import ReplyItem
+from ReplyInfo import ReplyInfo
 
 
 class MYSQLHelper:
@@ -11,9 +11,9 @@ class MYSQLHelper:
 
     query = ("insert into tiebareply (author, reply, floor, time) VALUES (%s, %s, %s, %s)")
 
-    def insert_replies(selef,list):
-        selef.cursor.executemany(selef.query, list)
-        selef.cnx.commit()
+    def insert_replies(self, list):
+        self.cursor.executemany(self.query, list)
+        self.cnx.commit()
 
     def closedb(self):
         self.cursor.close()
@@ -21,13 +21,13 @@ class MYSQLHelper:
 
     def query_replies(self,count=0):
         if count==0:
-            queryAll = ("select author, reply, floor, time from tiebareply")
+            query_all = ("select author, reply, floor, time from tiebareply")
         else:
-            queryAll = ("select author, reply, floor, time from tiebareply limit " + str(count))
-        self.cursor.execute(queryAll)
+            query_all = ("select author, reply, floor, time from tiebareply limit " + str(count))
+        self.cursor.execute(query_all)
         result = []
         for (author, reply, floor, time) in self.cursor:
-            item = ReplyItem()
+            item = ReplyInfo()
             item.author = author
             item.reply = reply
             item.floor = floor
