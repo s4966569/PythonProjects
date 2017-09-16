@@ -1,5 +1,5 @@
 import mysql.connector
-from ReplyInfo import ReplyItem
+from ReplyItem import ReplyItem
 
 
 class MYSQLHelper:

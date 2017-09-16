@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
-<body>
+<br>
     <form method="post" action="/post_user">
         <label>UserName:</label>
         <input id="username" name="username" type="text"/>
@@ -12,5 +12,10 @@
         <input id="email" name="email" type="text"/>
         <input type="submit"/>
     </form>
+
+    {%  for item in data %}
+    <li>{{ item.author }}----{{ item.time }}-----{{ item.floor }}</li>
+        <li>{{ item.reply }}</li><br></br>
+    {% endfor %}
 </body>
 </html>

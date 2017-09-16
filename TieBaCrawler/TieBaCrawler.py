@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import re
 
 from PostInfo import PostInfo
-from ReplyItem import ReplyItem
+from ReplyInfo import ReplyItem
 from MYSQLHelper import MYSQLHelper
 
 html_parser = 'lxml'
