@@ -71,6 +71,7 @@ class TieBaCrawler:
                 reply.author = user_name
                 reply.reply = content.strip()
                 reply.floor = floor
+                reply.page = index
                 reply.time = time
                 replies.append(reply)
 

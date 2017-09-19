@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/TieBaCrawler.py" line="104" />
+    <bookmark url="file://$PROJECT_DIR$/TieBaCrawler.py" line="105" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f25fe184-699e-4eca-89a5-39ccc215fdad" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../first_flask_demo/ReplyItem.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SQLALchemyDemo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../SQLALchemyDemo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SQLALchemyDemo/Pet.py" afterPath="$PROJECT_DIR$/../SQLALchemyDemo/Pet.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../SQLALchemyDemo/SQLALchemDemo.py" afterPath="$PROJECT_DIR$/../SQLALchemyDemo/SQLALchemDemo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DBHelper.py" afterPath="$PROJECT_DIR$/DBHelper.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FetchData.py" afterPath="$PROJECT_DIR$/FetchData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PrintReplies.py" afterPath="$PROJECT_DIR$/PrintReplies.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReplyInfo.py" afterPath="$PROJECT_DIR$/ReplyInfo.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TieBaCrawler.py" afterPath="$PROJECT_DIR$/TieBaCrawler.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_flask_demo/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../first_flask_demo/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_flask_demo/MYSQLHelper.py" afterPath="$PROJECT_DIR$/../first_flask_demo/MYSQLHelper.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../first_flask_demo/first_flask_demo.py" afterPath="$PROJECT_DIR$/../first_flask_demo/first_flask_demo.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,81 +24,31 @@
     <SUITE FILE_PATH="coverage/TieBaCrawler$Pet.coverage" NAME="Pet Coverage Results" MODIFIED="1505539775818" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TieBaCrawler$TieBaCrawler.coverage" NAME="TieBaCrawler Coverage Results" MODIFIED="1505540624225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TieBaCrawler$testvar.coverage" NAME="testvar Coverage Results" MODIFIED="1505464621671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TieBaCrawler$ReplyItem.coverage" NAME="ReplyItem Coverage Results" MODIFIED="1505540557741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TieBaCrawler$PrintReplies.coverage" NAME="PrintReplies Coverage Results" MODIFIED="1505545430827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TieBaCrawler$ReplyItem.coverage" NAME="ReplyItem Coverage Results" MODIFIED="1505787418183" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TieBaCrawler$PrintReplies.coverage" NAME="PrintReplies Coverage Results" MODIFIED="1505791899627" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TieBaCrawler$testdb.coverage" NAME="testdb Coverage Results" MODIFIED="1505469813863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/TieBaCrawler$queryreply.coverage" NAME="queryreply Coverage Results" MODIFIED="1505543500992" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/TieBaCrawler$FetchData.coverage" NAME="FetchData Coverage Results" MODIFIED="1505545331894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/TieBaCrawler$FetchData.coverage" NAME="FetchData Coverage Results" MODIFIED="1505791794439" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TieBaCrawler.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TieBaCrawler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="156">
-              <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#21#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PrintReplies.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PrintReplies.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DBHelper.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DBHelper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding>
-                <element signature="e#0#22#0" expanded="true" />
-                <marker date="1505544806219" expanded="true" signature="297:309" ph="insert into reply... " />
-                <marker date="1505544806219" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-                <marker date="1505544806219" expanded="true" signature="650:699" ph="select autho... " />
-                <marker date="1505544806219" expanded="true" signature="742:797" ph="select autho... " />
-                <marker date="1505544806219" expanded="true" signature="742:798" ph="select autho... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReplyInfo.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ReplyInfo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FetchData.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FetchData.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="216">
+              <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestEmoj.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TestEmoj.py">
+      <file leaf-file-name="PrintReplies.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PrintReplies.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <state relative-caret-position="144">
+              <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <marker date="1505469807257" expanded="true" signature="255:323" ph="INSERT INTO tbl_test... " />
-                <marker date="1505469807257" expanded="true" signature="336:364" ph="select messa... tbl_test" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -124,9 +74,10 @@
         <option value="$PROJECT_DIR$/Pet.py" />
         <option value="$PROJECT_DIR$/ReplyItem.py" />
         <option value="$PROJECT_DIR$/queryreply.py" />
-        <option value="$PROJECT_DIR$/ReplyInfo.py" />
-        <option value="$PROJECT_DIR$/TieBaCrawler.py" />
         <option value="$PROJECT_DIR$/MYSQLHelper.py" />
+        <option value="$PROJECT_DIR$/TieBaCrawler.py" />
+        <option value="$PROJECT_DIR$/DBHelper.py" />
+        <option value="$PROJECT_DIR$/ReplyInfo.py" />
         <option value="$PROJECT_DIR$/FetchData.py" />
         <option value="$PROJECT_DIR$/PrintReplies.py" />
       </list>
@@ -301,9 +252,9 @@
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.PrintReplies" />
         <item index="1" class="java.lang.String" itemvalue="Python.FetchData" />
-        <item index="2" class="java.lang.String" itemvalue="Python.queryreply" />
-        <item index="3" class="java.lang.String" itemvalue="Python.TieBaCrawler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.ReplyItem" />
+        <item index="2" class="java.lang.String" itemvalue="Python.ReplyItem" />
+        <item index="3" class="java.lang.String" itemvalue="Python.queryreply" />
+        <item index="4" class="java.lang.String" itemvalue="Python.TieBaCrawler" />
       </list>
     </recent_temporary>
   </component>
@@ -337,7 +288,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6002045" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5194274" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -362,6 +313,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DBHelper.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
@@ -369,7 +327,7 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="2" />
+      <option name="time" value="3" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -425,11 +383,11 @@
           <caret line="18" column="27" lean-forward="true" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1505544806219" expanded="true" signature="297:309" ph="insert into reply... " />
-            <marker date="1505544806219" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-            <marker date="1505544806219" expanded="true" signature="650:699" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:797" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:798" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="297:309" ph="insert into reply... " />
+            <marker date="1505789537922" expanded="true" signature="297:382" ph="insert into tiebareply... " />
+            <marker date="1505789537922" expanded="true" signature="660:715" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:819" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:820" ph="select autho... " />
           </folding>
         </state>
       </provider>
@@ -466,11 +424,11 @@
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1505544806219" expanded="true" signature="297:309" ph="insert into reply... " />
-            <marker date="1505544806219" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-            <marker date="1505544806219" expanded="true" signature="650:699" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:797" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:798" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="297:309" ph="insert into reply... " />
+            <marker date="1505789537922" expanded="true" signature="297:382" ph="insert into tiebareply... " />
+            <marker date="1505789537922" expanded="true" signature="660:715" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:819" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:820" ph="select autho... " />
           </folding>
         </state>
       </provider>
@@ -507,11 +465,11 @@
           <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1505544806219" expanded="true" signature="297:309" ph="insert into reply... " />
-            <marker date="1505544806219" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-            <marker date="1505544806219" expanded="true" signature="650:699" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:797" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:798" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="297:309" ph="insert into reply... " />
+            <marker date="1505789537922" expanded="true" signature="297:382" ph="insert into tiebareply... " />
+            <marker date="1505789537922" expanded="true" signature="660:715" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:819" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:820" ph="select autho... " />
           </folding>
         </state>
       </provider>
@@ -631,51 +589,61 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PrintReplies.py">
+    <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1247971764/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        <state relative-caret-position="316">
+          <caret line="1111" column="8" lean-forward="false" selection-start-line="1111" selection-start-column="8" selection-end-line="1111" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ReplyInfo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="57" lean-forward="false" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DBHelper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#0#22#0" expanded="true" />
-            <marker date="1505544806219" expanded="true" signature="297:309" ph="insert into reply... " />
-            <marker date="1505544806219" expanded="true" signature="297:372" ph="insert into tiebareply... " />
-            <marker date="1505544806219" expanded="true" signature="650:699" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:797" ph="select autho... " />
-            <marker date="1505544806219" expanded="true" signature="742:798" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="297:309" ph="insert into reply... " />
+            <marker date="1505789537922" expanded="true" signature="297:382" ph="insert into tiebareply... " />
+            <marker date="1505789537922" expanded="true" signature="660:715" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:819" ph="select autho... " />
+            <marker date="1505789537922" expanded="true" signature="758:820" ph="select autho... " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ReplyInfo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FetchData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" column="48" lean-forward="true" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/TieBaCrawler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="70" column="40" lean-forward="true" selection-start-line="70" selection-start-column="40" selection-end-line="70" selection-end-column="40" />
+        <state relative-caret-position="-139">
+          <caret line="73" column="34" lean-forward="false" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FetchData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="13" column="19" lean-forward="true" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PrintReplies.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="true" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

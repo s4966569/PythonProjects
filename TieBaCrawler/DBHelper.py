@@ -9,7 +9,7 @@ class MYSQLHelper:
     cnx.set_charset_collation('utf8mb4')
     cursor = cnx.cursor()
 
-    query = ("insert into tiebareply (author, reply, floor, time) VALUES (%s, %s, %s, %s)")
+    query = ("insert into tiebareply (author, reply, page, floor, time) VALUES (%s, %s, %s, %s, %s)")
 
     def insert_replies(self, list):
         self.cursor.executemany(self.query, list)
@@ -21,15 +21,16 @@ class MYSQLHelper:
 
     def query_replies(self,count=0):
         if count==0:
-            query_all = ("select author, reply, floor, time from tiebareply")
+            query_all = ("select author, reply, page, floor, time from tiebareply")
         else:
-            query_all = ("select author, reply, floor, time from tiebareply limit " + str(count))
+            query_all = ("select author, reply, page, floor, time from tiebareply limit " + str(count))
         self.cursor.execute(query_all)
         result = []
-        for (author, reply, floor, time) in self.cursor:
+        for (author, reply, page, floor, time) in self.cursor:
             item = ReplyInfo()
             item.author = author
             item.reply = reply
+            item.page = page
             item.floor = floor
             item.time = time
             result.append(item)
